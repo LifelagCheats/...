@@ -1,0 +1,12 @@
+discord.py
+opencv-python
+numpy
+pillow
+mss
+pyautogui
+platform
+requests
+wave
+sounddevice
+daemon
+tempfile
