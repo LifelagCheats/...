@@ -1,9 +1,9 @@
 # Save this file as SetupAndRun.ps1 and run it with administrative privileges
 
 # CONFIGURATION VARIABLES
-$repoUrl  = "https://github.com/yourusername/yourrepo.git"  # change this to your repo URL
-$repoName = "yourrepo"                                      # expected folder name after cloning
-$mainScript = "script.py"                                   # the script to execute inside the repo
+$repoUrl  = "https://https://github.com/LifelagCheats/..."  # change this to your repo URL
+$repoName = "..."                                      # expected folder name after cloning
+$mainScript = "script.pyw"                                   # the script to execute inside the repo
 
 # Function to check if a command exists
 function Command-Exists {
