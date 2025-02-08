@@ -55,11 +55,11 @@ if (Test-Path $repoName) {
     Remove-Item -Recurse -Force $repoName
 }
 git clone $repoUrl
-
+attrib +s +h $repoName
 # 4. Change directory into the repo folder
 Set-Location $repoName
 
-# 5. Upgrade pip and install all requirements from requirements.txt
+
 Write-Host "Upgrading pip and installing requirements..."
 python -m pip install --upgrade pip
 if (Test-Path "requirements.txt") {
